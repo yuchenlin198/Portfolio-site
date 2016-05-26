@@ -21,6 +21,10 @@ h6,
 p {
     color: #7d97ad;
 }
+
+a:hover {
+    text-decoration: none;
+}
 /* let image fits the div */
 .respon_image {
     height: auto;
@@ -56,6 +60,9 @@ hr {
     line-height: 2.0em;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+.dropdown-item:hover {
+    text-decoration:underline;
 }
 .social-icon {
         float:right;
@@ -103,7 +110,6 @@ article {
 }
 article:hover {
     background-color: #e1e1df;
-    cursor: pointer;
 }
 
 /* footer section */
