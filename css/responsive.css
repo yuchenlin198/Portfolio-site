@@ -1,35 +1,42 @@
 @media only screen and (max-width: 375px) {
-    .slogan {
-        font-size: 26px;
-    }
-}
-@media only screen and (max-width: 600px) {
-    #udacity-logo img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .feature-work-banner {
-        font-size: 26px;
-    }
-    /* center header for devices smaller than 600px */
-    .text-center-small {
-        text-align: center;
-    }
-    .size-extra-small {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-/* re-position social icon at 768px */
-@media only screen and (min-width: 768px) {
-    .social-icon {
-        display: none;
-    }
-}
-@media only screen and (max-width: 767px) {
-    .social-icon-2 {
-        display: none;
-    }
+  .slogan {
+    font-size: 26px;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  #udacity-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-work-banner {
+    font-size: 26px;
+  }
+
+    /* center header for devices smaller than 600px */
+    
+  .text-center-small {
+    text-align: center;
+  }
+
+  .size-extra-small {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* re-position social icon at 768px */
+
+@media only screen and (min-width: 768px) {
+  .social-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .social-icon-2 {
+    display: none;
+  }
+}
